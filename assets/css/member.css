@@ -1,0 +1,83 @@
+@font-face {
+  font-family: AeroLight;
+  src: url("http://172.16.52.101/career2016/assets/fonts/Aero-Light.otf"); }
+@font-face {
+  font-family: AeroMedium;
+  src: url("http://172.16.52.101/career2016/assets/fonts/Aero-Medium.otf"); }
+@font-face {
+  font-family: AeroBold;
+  src: url("http://172.16.52.101/career2016/assets/fonts/Aero-Bold_2.otf"); }
+
+
+.header {
+	font-family: AeroMedium;
+	text-align: center;
+	background: url("http://172.16.52.101/career2016/assets/images/depan-lighter.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 7.7rem; }
+
+.header .main-header {
+	font-family: AeroMedium;
+	color: #fff; }
+.header h1 {
+	font-size: 3rem; }
+.header h4 {
+	font-size: 1rem; }
+
+.header-subnav {
+	float: none;
+	position: relative;
+	top: 7.7rem;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.header-subnav li {
+	float: none;
+	display: inline-block;
+}
+
+.header-subnav li a {
+	padding: 0.9rem 1rem 0.75rem;
+	font-size: 0.875rem;
+	color: #fff;
+	text-transform: uppercase;
+	display: block;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.header-subnav li a.is-active {
+	background: rgba(250, 250, 250, 0.7);
+	color: #333;
+}
+
+.header-subnav li a:hover {
+	background: rgba(250, 250, 250, 0.7);
+	color: #333;
+	transition: all .25s ease-in-out;
+}
+
+#judul-1 h1 {
+	text-align: center;
+	font-family: AeroBold;
+	font-size: 1.7rem;
+}
+
+#welcome h4 {
+	text-align: center;
+	font-family: AeroLight;
+	font-size: 1rem;
+}
+
+footer p {
+	font-family: AeroLight;
+	font-size: .7rem;
+	text-align: center;
+}
+
+@media only screen and (min-width: 40.063em) {
+	.header .main-header {
+		font-family: AeroMedium;
+		color: #fff; }
+}

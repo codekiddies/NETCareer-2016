@@ -1,0 +1,124 @@
+@font-face {
+  font-family: AeroLight;
+  src: url("http://172.16.52.101/career2016/assets/fonts/Aero-Light.otf"); }
+@font-face {
+  font-family: AeroMedium;
+  src: url("http://172.16.52.101/career2016/assets/fonts/Aero-Medium.otf"); }
+@font-face {
+  font-family: AeroBold;
+  src: url("http://172.16.52.101/career2016/assets/fonts/Aero-Bold_2.otf"); }
+.hero {
+  /*background: url("http://wallpoper.com/images/00/34/39/15/circuit-pcb_00343915.jpg") no-repeat center center;*/
+  background: url("http://172.16.52.101/career2016/assets/images/depan.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh; }
+  .hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #002f4b, #008CBA);
+    opacity: .7; }
+  .hero .intro {
+    padding: 3rem;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%); }
+  .hero h1 {
+    margin-top: 3rem;
+    color: #fff;
+    font-family: AeroBold;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+    text-align: center; }
+  .hero p {
+    color: #fff;
+    line-height: 1.75em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 2rem; }
+  .hero blockquote {
+    font-family: AeroLight;
+    font-size: 12px;
+    border-left: 0px solid #ddd;
+    color: #fff;
+    line-height: 1.75em;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 2rem; }
+  .hero cite {
+    font-family: AeroLight;
+    font-size: 9.5px;
+    color: #fff;
+    line-height: 1.75em;
+    font-weight: 200;
+    text-align: center; }
+  .hero footer p {
+    font-size: 10px;
+    color: #fff; }
+  .hero .button {
+    font-family: AeroMedium;
+    font-size: 1rem; }
+  .hero .button-holder {
+    text-align: center;
+    margin-top: 2rem; }
+  .hero .tech-img {
+    background: url("http://172.16.52.101/career2016/assets/images/depan2.jpg");
+    /*background: url("http://static.pexels.com/wp-content/uploads/2015/02/apple-hand-iphone-6-4322-525x350.jpg") no-repeat center center;*/
+    background-size: cover;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; }
+  .hero .logo {
+    background: url("http://172.16.52.101/career2016/assets/images/logo1.png") no-repeat center center;
+    background-size: cover;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 0%;
+    display: block;
+    margin: 2% auto; }
+  @media only screen and (min-width: 40.063em) {
+    .hero .tech-img {
+      height: 18rem;
+      width: 18rem; }
+    .hero h1 {
+      padding-top: 2rem;
+      text-align: center;
+      font-size: 3rem; }
+    .hero p {
+      text-align: center; }
+    .hero blockquote {
+      margin-bottom: 2rem;
+      text-align: center; }
+    .hero cite {
+      text-align: center; }
+    .hero .button {
+      font-family: AeroMedium;
+      font-size: 1.3rem; }
+    .hero .button-holder {
+      text-align: center;
+      margin:0 auto; }
+    .hero footer p {
+      font-size: 10px;
+      color: #fff; } }
+  /*.hero .button {
+    color: transparent;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, pink, skyblue);
+    border-image-slice: 1;
+    background: linear-gradient(45deg, pink, skyblue);
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    transition: all 0.2s ease; }
+  .hero .button:hover {
+    border-image: linear-gradient(45deg, #2ecc71, dodgerblue);
+    background: linear-gradient(45deg, #2ecc71, dodgerblue);
+    color:#fff; }*/
