@@ -100,7 +100,7 @@ if(isset($this->session->userdata['logged_in'])) {
           							<span class="prefix"><i class="fi-mail"></i></span>
           						</div>
           						<div class="small-10 columns">
-          							<input type="text" name="email" value="" placeholder="Your email" autofocus />
+          							<input type="text" name="email" value="" placeholder="Your email" autofocus autocomplete="off" />
           						</div>
           					</div>
           				</div>

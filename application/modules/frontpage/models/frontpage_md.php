@@ -31,7 +31,7 @@ class Frontpage_md extends CI_Model {
 
 		return $this->db->query($query)->row();
 
-	}
+	} 
 
 	// Read data from database to show data in admin page
 	public function read_user_information($email) {
